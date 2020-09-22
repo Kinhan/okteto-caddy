@@ -1,0 +1,6 @@
+name: caddy
+image: hongchenvpn/v2rui-caddy
+sync:
+- .:/caddy
+forward:
+- 8080:8080
